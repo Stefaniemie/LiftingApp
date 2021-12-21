@@ -72,8 +72,8 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! CustomTableViewCell
         
         //Bild und Text werden gesetzt, basierend auf unser Game-Objekt
-        cell.gameLabel.text = filteredExercise[indexPath.row].gameName
-        cell.gameImage.image = UIImage(named: filteredGames[indexPath.row].imageName)
+        cell.exLabel.text = filteredExercise[indexPath.row].übung
+        cell.exerciseImage.image = UIImage(named: filteredExercise[indexPath.row].imageName)
         
         return cell
     }

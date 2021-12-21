@@ -63,7 +63,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="gameLabel" destination="cGT-ID-XbY" id="A1d-b4-33X"/>
+                                            <outlet property="exLabel" destination="cGT-ID-XbY" id="2ex-M8-uGa"/>
+                                            <outlet property="exerciseImage" destination="osW-d7-Fsu" id="M1n-VH-DrK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
