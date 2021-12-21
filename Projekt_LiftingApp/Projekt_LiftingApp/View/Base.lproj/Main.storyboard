@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="115.84821428571428"/>
         </scene>
-        <!--Game Table View Controller-->
+        <!--Beschreibung Table View Controller-->
         <scene sceneID="G3t-uQ-2IZ">
             <objects>
-                <tableViewController id="6ek-Bm-H2m" customClass="GameTableViewController" customModule="Projekt_LiftingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="6ek-Bm-H2m" customClass="BeschreibungTableViewController" customModule="Projekt_LiftingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="a0J-DL-alK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

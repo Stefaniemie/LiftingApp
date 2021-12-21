@@ -1,0 +1,29 @@
+[{
+    "übung" : "Squats",
+    "körpergruppe": "Unterkörper",
+    "ausführung" : "Richte deinen Blick gerade nach vorne, sieh nicht nach unten. Öffne deine Brust und entspann deine Schultern. Streck deine Hände gerade nach vorne.",
+    "wiederholungen": "12",
+    "imageName": "Squats"
+},
+{
+    "übung" : "Bankdrücken",
+    "körpergruppe": "Oberkörper",
+    "ausführung" : "blabla",
+    "wiederholungen": "12",
+    "imageName": "benchpress"
+},
+{
+    "übung" : "Latzug",
+    "körpergruppe": "Oberkörper",
+    "ausführung" : "Richte deinen Blick gerade nach vorne, sieh nicht nach unten. Öffne deine Brust und entspann deine Schultern. Streck deine Hände gerade nach vorne.",
+    "wiederholungen": "10",
+    "imageName": "pulldown"
+},
+{
+    "übung" : "Deadlift",
+    "körpergruppe": "Unterkörper",
+    "ausführung" : "Richte deinen Blick gerade nach vorne, sieh nicht nach unten. Öffne deine Brust und entspann deine Schultern. Streck deine Hände gerade nach vorne.",
+    "wiederholungen": "12",
+    "imageName": "Deadlift"
+}
+]
