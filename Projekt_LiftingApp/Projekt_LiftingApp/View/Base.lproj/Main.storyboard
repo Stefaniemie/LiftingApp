@@ -241,6 +241,7 @@
                         <outlet property="KoerpergruppeLabel" destination="AYs-Hp-zG2" id="G9T-yC-IHF"/>
                         <outlet property="ausfuehrungLabel" destination="Jcw-yH-fDd" id="z9z-ca-H0V"/>
                         <outlet property="eImage" destination="ZU4-TE-K0u" id="vZr-JB-PTD"/>
+                        <outlet property="übungLabel" destination="mBg-Td-wDd" id="xde-Tj-bMo"/>
                         <outlet property="wiederholungenLabel" destination="Y2R-po-iuT" id="FLi-V5-de3"/>
                     </connections>
                 </tableViewController>

@@ -18,9 +18,9 @@ class ViewController: UIViewController {
     //MARK: - Data
     //Unsere Daten
     //var games = ["Far Cry 6", "Battlefield 2042", "Fifa 22", "Back4Blood", "Hot Wheels Unleashed", "Forza Horizon 5", "Call of Duty Vanguard", "Riders Republic"]
-    var allExercise = eData
+    var allExercise = exercisedata
     var selectedExercise: Model?
-    var filteredExercise = eData
+    var filteredExercise = exercisedata
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         if segue.identifier == "showBeschreibung" {
             //Zugriff auf den "Ziel VC"
             let zielTableVC = segue.destination as! BeschreibungTableViewController
-            zielTableVC.game = selectedExercise
+            zielTableVC.exercise = selectedExercise
         }
     }
 }
@@ -92,9 +92,9 @@ extension ViewController: UISearchBarDelegate {
         //Wird ausgeführt wenn die Eingabe nicht leer ist:
         if searchText != "" {
             //Unser Filter
-            filteredExercise = allGames.filter({ game in
+            filteredExercise = allExercise.filter({ exercise in
                 //Die Datensätze sollen in Klein-Schreibung umgewandelt und überprüft werden
-                if game.gameName.lowercased().contains(searchText) {
+                if exercise.übung.lowercased().contains(searchText) {
                     return true
                 }
                 return false

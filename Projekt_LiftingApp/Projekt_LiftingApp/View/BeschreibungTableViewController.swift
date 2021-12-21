@@ -10,6 +10,8 @@ import UIKit
 class BeschreibungTableViewController: UITableViewController {
 
     
+  
+    @IBOutlet weak var übungLabel: UILabel!
     @IBOutlet weak var eImage: UIImageView!
     @IBOutlet weak var KoerpergruppeLabel: UILabel!
     @IBOutlet weak var ausfuehrungLabel: UILabel!
@@ -23,7 +25,11 @@ class BeschreibungTableViewController: UITableViewController {
 
         tableView.tableFooterView = UIView()
         
-        eImage.image = 
+        übungLabel.text = exercise?.übung
+        eImage.image = UIImage(named: exercise?.imageName ?? "Squats")
+        KoerpergruppeLabel.text = exercise?.körpergruppe
+        ausfuehrungLabel.text = exercise?.ausführung
+        wiederholungenLabel.text = exercise?.wiederholungen
         
           
     }
