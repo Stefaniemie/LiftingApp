@@ -8,12 +8,11 @@
 import UIKit
 
 class CustomTableViewCell: UITableViewCell {
-
     
-    @IBOutlet weak var exLabel: UILabel!
+
     @IBOutlet weak var exerciseImage: UIImageView!
-
-
+    @IBOutlet weak var exLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         

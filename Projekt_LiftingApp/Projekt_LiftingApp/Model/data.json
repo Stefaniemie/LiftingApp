@@ -1,7 +1,7 @@
 [{
     "übung" : "Squats",
     "körpergruppe": "Unterkörper",
-    "ausführung" : "Richte deinen Blick gerade nach vorne, sieh nicht nach unten. Öffne deine Brust und entspann deine Schultern. Streck deine Hände gerade nach vorne.",
+    "ausführung" : "Brust oben halten. Knie bewegen sich in einer Linie mit den Zehen. Halten Sie den Körper während der gesamten Bewegung angespannt.",
     "wiederholungen": "12",
     "imageName": "Squats"
 },
@@ -15,15 +15,29 @@
 {
     "übung" : "Latzug",
     "körpergruppe": "Oberkörper",
-    "ausführung" : "Richte deinen Blick gerade nach vorne, sieh nicht nach unten. Öffne deine Brust und entspann deine Schultern. Streck deine Hände gerade nach vorne.",
+    "ausführung" : "Arme nah am Körper vorbeiziehen",
     "wiederholungen": "10",
     "imageName": "pulldown"
 },
 {
     "übung" : "Deadlift",
     "körpergruppe": "Unterkörper",
-    "ausführung" : "Richte deinen Blick gerade nach vorne, sieh nicht nach unten. Öffne deine Brust und entspann deine Schultern. Streck deine Hände gerade nach vorne.",
-    "wiederholungen": "12",
+    "ausführung" : "Rücken gerade lassen",
+    "wiederholungen": "10",
     "imageName": "Deadlift"
+},
+{
+    "übung" : "Bizepscurls",
+    "körpergruppe": "Oberkörper",
+    "ausführung" : "Ohne Schwung",
+    "wiederholungen": "12",
+    "imageName": "curls"
+},
+{
+    "übung" : "Schulterdrücken",
+    "körpergruppe": "Oberkörper",
+    "ausführung" : "Handgelenke 90 Grad zum Ellebogen",
+    "wiederholungen": "10",
+    "imageName": "Schulterdrücken"
 }
 ]
